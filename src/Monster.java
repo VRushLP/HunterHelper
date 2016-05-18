@@ -12,8 +12,10 @@ public class Monster {
 	public int[] poisonStats;
 	public int[] blastStats;
 
-	public static Monster KushalaDaora = new Monster("Kushala Daora", 4200, new int[] { 150, 50, 350, 240 },
-			new int[] { 55, 45, 1090, 200 });
+	public static Monster KushalaDaora = new Monster("Kushala Daora", 4200,
+			new int[] { 150, 50, 350, 240 }, new int[] { 55, 45, 1090, 200 });
+	public static Monster Ukanlos = new Monster("Ukanlos", 7000, new int[] {
+			400, 150, 1000, 150 }, new int[] { 140, 75, 2015, 300 });
 
 	private Monster(String name, int health, int[] poison, int[] blast) {
 		this.name = name;
